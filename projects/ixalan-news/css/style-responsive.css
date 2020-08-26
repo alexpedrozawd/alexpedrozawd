@@ -1,0 +1,985 @@
+/*
+* @author Alexandre Pedroza
+* @version 0.1
+*/
+
+/* ====================================================== MEDIA QUERIES =========================================================*/
+
+/* 1200px - 1366px */
+@media screen and (min-width: 1200px) and (max-width: 1366px){
+	/* WALLPAPER */
+	body {
+		background: url('../img/wallpapers/huatli-wallpaper-lg.png') no-repeat fixed center/1370px;
+	}
+	
+	/* BANNER */
+	.banner-text h1 {
+		font-size: 50px;
+	}
+
+	/* ===================================================== ARTICLES.HTML ===========================================================*/
+	/* DEFAULT - ARTICLES PAGE */
+	.articles-page {
+		margin: 12% 0 5% 0;
+	}
+
+	.articles-page h2 {
+		margin-bottom: 3%;
+	}
+}
+
+/* 992px - 1199px */
+@media screen and (min-width: 992px) and (max-width: 1199px){
+	/* WALLPAPER */
+	body {
+		background: url('../img/wallpapers/huatli-wallpaper-lg.png') no-repeat fixed center/1600px;
+	}
+
+	/* LOGO */
+	.logo-news {
+		top: 15px;
+		font-size: 15px;
+	}
+
+	.ixalan-logo {
+		width: 100px;
+		margin-left: 50px;
+	}
+
+	/* NAVBAR MENU */
+	#barra-navegacao>ul>li>a {
+		font-size: 16px;
+		margin: 0 0 0 0;
+	}
+	.divisor-menu {
+		margin: 0 0 0 100px;
+	}
+
+	/* LANGUAGE MENU*/
+	.language {
+		height: 28px;
+		width: 38px;
+	}
+
+	/* BANNER */
+	.banner-text h1 {
+		font-size: 50px;
+	}
+
+	/* BANNER BUTTON */
+	.btn-banner {
+		padding: 15px 20px;
+		font-size: 20px;
+	}
+
+	/* ARTICLES AND ABOUT SITE */
+	/* ABOUT-SITE */
+	.featured-articles h1, .featured-articles h2, .featured-articles p {
+		padding-left: 50px;
+	}
+
+	.featured-articles h1 {
+		margin-top: 90px;
+	}
+
+	/* ARTICLES */
+	.bottom-left-text1 {
+		font-size: 18px;
+
+	}
+
+	.bottom-left-text2 {
+		font-size: 18px;
+	}
+
+	#view-more {
+		font-size: 25px;
+		margin: 0 37%;
+		opacity: 0.8;
+	}
+
+	/* ======================================================== ABOUT IXALAN ========================================================*/
+	/* DEFAULT */
+	.about-ixalan {
+	background: url('../img/wallpapers/vraska-wallpaper.png') no-repeat center center/1250px;
+	}
+	/* IXALAN INFO */
+	.ixalan-info h1 {
+		padding-top: 100px;
+	}
+
+	.ixalan-info h2 {
+		font-size: 20px;
+	}
+
+	.ixalan-info ul {
+		padding: 20px 0 100px 0;
+		font-size: 18px;
+	}
+
+	.ixalan-info ul>li {
+		margin-left: 35px;
+	}
+
+	/* IXALAN CARDS */
+	.cards-img img {
+		padding-top: 200px;
+		padding-left: 15px;
+		transform: rotate(10deg);
+	}
+
+	/* ======================================================= FOOTER ============================================================*/
+	/* ALEXANDRE PEDROZA COPYRIGHT */
+	/* MTG COPYRIGHT */
+	.mtg-logo {
+		margin-left: 80px;
+	}
+
+	.wizards-logo {
+		margin-left: 100px;
+	}
+
+	.mtg-copyright .ixalan-logo {
+		margin-left: 55px;
+		height: 45px;
+		width: 180px;
+	}
+
+	/* ===================================================== ARTICLES.HTML ===========================================================*/
+	/* DEFAULT - ARTICLES PAGE */
+	.articles-page {
+		margin: 14% 0 5% 0;
+	}
+
+	.articles-page h1 {
+		font-size: 40px;
+	}
+
+	.articles-page h2 {
+		font-size: 25px;
+		margin-bottom: 3%;
+	}
+
+	/* MINI ARTICLES */
+	.mini-article {
+		height: 330px;
+	}
+
+	.mini-article h2 {
+		font-size: 20px;
+	}
+
+	.mini-article p {
+		font-size: 12px;
+	}
+
+	.mini-article time {
+		font-size: 12px;
+	}
+
+	/* ====================================================== CARD-DATABASE.HTML ====================================================*/
+	/* DEFAULT - CARD-DATABASE PAGES */
+	.card-database {
+		margin: 12% 0 5% 0;
+	}
+
+	/* ====================================================== ARTTICLES PAGES ==============================================*/
+	.card-post-group img {
+	width: 200px;
+}
+}
+
+/* 768px - 991px */
+@media screen and (min-width: 768px) and (max-width: 991px){
+	/* WALLPAPER */
+	body {
+		background: url('../img/wallpapers/huatli-wallpaper-sm.png') no-repeat fixed center/1250px;
+	}
+	/* LOGO */
+	.logo-news {
+		top: 15px;
+		font-size: 20px;
+	}
+
+	.ixalan-logo {
+		width: 125px;
+	}
+
+	/* NAVBAR MENU */
+	#barra-navegacao>ul>li>a {
+		font-size: 16px;
+		margin: 0;
+	}
+	.divisor-menu {
+		margin: 0;
+	}
+
+	/* LANGUAGE MENU*/
+	.language {
+		height: 28px;
+		width: 38px;
+	}
+
+	/* BANNER */
+	.banner-text h1 {
+		font-size: 50px;
+	}
+
+	/* BANNER BUTTON */
+	.btn-banner {
+		padding: 15px 20px;
+		font-size: 20px;
+	}
+	
+	/* ARTICLES AND ABOUT SITE */
+	/* ABOUT-SITE */
+	.featured-articles h1, .featured-articles h2, .featured-articles p {
+		padding-left: 25px;
+		text-align: center;
+	}
+	.featured-articles h1 {
+		margin-top: 75px;
+		font-size: 30px;
+	}
+	.featured-articles h2 {
+		margin-top: 25px;
+		font-size: 20px;
+	}
+
+	.featured-articles p {
+		font-size: 18px;
+	}
+
+	/* ARTICLES */
+	.main-article img, .secundary-article img {
+		margin: 20px 0 10px 0;
+	}
+
+	.main-article img {
+		width: 800px;
+	}
+
+	.bottom-left-text1 {
+		font-size: 25px;
+	}
+
+	.bottom-left-text2 {
+		font-size: 18px;
+	}
+
+	#view-more {
+		font-size: 30px;
+		margin: 0 40%;
+	}
+	#view-more a {
+		text-align: center;
+	}
+
+	/* ======================================================== ABOUT IXALAN ========================================================*/
+	/* DEFAULT */
+	.about-ixalan {
+	background: url('../img/wallpapers/vraska-wallpaper.png') no-repeat center center/1250px;
+	}
+	/* IXALAN INFO */
+	.ixalan-info h1 {
+		padding-top: 100px;
+	}
+
+	.ixalan-info h2 {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.ixalan-info ul {
+		padding: 20px 0 100px 35%;
+		font-size: 18px;
+	}
+
+	.ixalan-info ul>li {
+		margin-left: 20px;
+	}
+
+	/* IXALAN CARDS */
+	.cards-img img {
+		width: 200px;
+		margin: auto;
+		padding: 60px 0 0 20px;
+		transform: rotate(10deg);
+	}
+
+	/* =========================================================== FOOTER ============================================================*/
+	/* ALEXANDRE PEDROZA COPYRIGHT */
+	/* MTG COPYRIGHT */
+	.mtg-logo {
+		margin-left: 42px;
+	}
+
+	.wizards-logo {
+		margin-left: 60px;
+	}
+
+	.mtg-copyright .ixalan-logo {
+		margin-left: 47px;
+	}
+
+	/* ===================================================== ARTICLES.HTML ===========================================================*/
+	/* DEFAULT - ARTICLES PAGE */
+	.articles-page {
+		margin: 16% 0 5% 0;
+	}
+
+	.articles-page h1 {
+		font-size: 30px;
+	}
+
+	.articles-page h2 {
+		font-size: 20px;
+		margin-bottom: 3%;
+	}
+
+	/* MINI ARTICLES */
+	.mini-article {
+		height: 360px;
+	}
+
+	.mini-article h2 {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.mini-article p {
+		font-size: 12px;
+	}
+
+	.mini-article time {
+		font-size: 12px;
+	}
+
+	/* ================================================ CARD-DATABASE.HTML ===================================================*/
+	/* DEFAULT - CARD-DATABASE PAGES */
+	.card-database {
+		margin: 16% 0 5% 0;
+	}
+
+	.card-database h1 {
+		margin: 5% 0 0 0;
+		font-size: 40px;
+	}
+
+	.card-database h2 {
+		font-size: 25px;
+	}
+
+	.card-database h3 {
+		margin: 3% 0;
+		font-size: 20px;
+	}
+
+	/* TABS */
+	.nav-tabs {
+		font-size: 14px;
+	}
+
+	.tab-pane {
+		margin: 5px 0 25px 0;
+	}
+
+	/* CARDS */
+	.card-database img {
+		width: 200px;
+		padding: 5px;
+	}
+
+	/* DEFAULT - ARTICLE POSTS PAGE */
+	.article-post-content {
+		padding: 10px 150px 50px 150px;
+	}
+
+	/* ================================================ ARTICLES PAGES =============================================*/
+	.article-img-banner {
+		width: 500px;
+	}
+
+	.article-post-content {
+		margin: 0;
+		padding: 0;
+	}
+
+	.article-post-content p {
+		font-size: 16px;
+	}
+
+	.article-post-content ul {
+		font-size: 15px;
+	}
+
+	.card-post {
+		width: 225px !important; 
+	}
+
+	.card-post-group img {
+		width: 180px;
+	}
+}
+
+/* 431px - 767px */
+@media screen and (min-width: 431px) and (max-width: 767px){
+	/* WALLPAPER */
+	body {
+		background: url('../img/wallpapers/huatli-wallpaper-sm.png') no-repeat fixed center center/1250px;
+	}
+
+	/* LOGO */
+	.logo-news {
+		top: 14px;
+		font-size: 25px;
+	}
+
+	.ixalan-logo {
+		width: 150px;
+		margin-left: 50px;
+	}
+
+	/* NAVBAR MENU */
+	#barra-navegacao>ul>li>a {
+		font-size: 25px;
+		text-align: center;
+		margin: 0;
+	}
+	.divisor-menu {
+		margin: 0;
+	}
+	/* BANNER */
+	.banner-text h1 {
+		font-size: 40px;
+	}
+
+	/* BANNER BUTTON */
+	.btn-banner {
+		max-width: 175px;
+		padding: 15px 10px;
+		font-size: 20px;
+	}
+
+	/* ARTICLES AND ABOUT SITE */
+	/* ABOUT-SITE */
+	.featured-articles h1, .featured-articles h2, .featured-articles p {
+		padding-left: 5px;
+		text-align: center;
+	}
+	.featured-articles h1 {
+		margin-top: 50px;
+		font-size: 30px;
+	}
+	.featured-articles h2 {
+		margin-top: 25px;
+		font-size: 20px;
+	}
+
+	.featured-articles p {
+		font-size: 18px;
+	}
+
+	/* ARTICLES */
+	.main-article img, .secundary-article img {
+		margin: 20px 0 10px 0;
+	}
+
+	.secundary-article {
+		margin-top: 20px;
+	}
+
+	.secundary-article img {
+		width: auto;
+		display: block;
+		margin: auto;
+	}
+
+	.main-article img {
+		width: auto;
+	}
+
+	.bottom-left-text1 {
+		font-size: 18px;
+	}
+
+	.bottom-left-text2 {
+		font-size: 18px;
+	}
+
+	#view-more {
+		font-size: 20px;
+		margin: 0 37%;
+	}
+	#view-more a {
+		text-align: center;
+	}
+
+		/* ======================================================== ABOUT IXALAN ========================================================*/
+	/* DEFAULT */
+	.about-ixalan {
+	background: url('../img/wallpapers/vraska-wallpaper.png') no-repeat center center/1200px;
+	}
+	/* IXALAN INFO */
+	.ixalan-info h1 {
+		text-align: center;
+		font-size: 40px;
+		padding-top: 70px;
+	}
+
+	.ixalan-info h2 {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.ixalan-info ul {
+		display: table;
+		margin: auto;
+		padding: auto;
+		font-size: 18px;
+	}
+
+	/* IXALAN CARDS */
+	.cards-img img {
+		width: auto;
+		display: table;
+		margin: -100px 0 100px 15px;
+		padding: 0 10px 0 0;
+		transform: rotate(10deg);
+	}
+
+	/* =========================================================== FOOTER ============================================================*/
+	/* ALEXANDRE PEDROZA COPYRIGHT */
+	/* MTG COPYRIGHT */
+	.alex-pedroza-cp {
+		font-size: 12px;
+	}
+	.mtg-logo {
+		margin-left: 60px;
+		height: 35px;
+		width: 160px; 
+	}
+
+	.wizards-logo {
+		margin-left: 40px;
+		height: 35px;
+		width: 160px; 
+	}
+
+	.mtg-copyright .ixalan-logo {
+		margin-left: 5px;
+		height: 25px;
+		width: 160px; 
+	}
+
+	/* ===================================================== ARTICLES.HTML ===========================================================*/
+	/* DEFAULT - ARTICLES PAGE */
+	.articles-page {
+		margin: 26% 0 5% 0;
+	}
+
+	.articles-page h1 {
+		font-size: 30px;
+	}
+
+	.articles-page h2 {
+		font-size: 20px;
+		margin-bottom: 3%;
+	}
+
+	.nav-tabs li {
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+
+	.nav-tabs li a {
+		float: left;
+		width: 50%;
+	}
+
+
+	/* MINI ARTICLES */
+	.mini-article {
+		height: auto;
+	}
+
+	.mini-article img {
+		width: 100%;
+	}
+
+	.mini-article h2 {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.mini-article p {
+		font-size: 12px;
+	}
+
+	.mini-article time {
+		font-size: 12px;
+	}
+
+	/* =================================================== CARD-DATABASE.HTML ====================================================*/
+	/* DEFAULT - CARD-DATABASE PAGES */
+	.card-database {
+		margin: 0;
+		border: none;
+		border-radius: 0;
+	}
+
+	.card-database h1 {
+		margin: 30% 0 0 0;
+		font-size: 40px;
+	}
+
+	.card-database h2 {
+		font-size: 25px;
+	}
+
+	.card-database h3 {
+		margin: 3% 0;
+		font-size: 20px;
+	}
+
+	/* TABS */
+	.nav-tabs {
+		font-size: 14px;
+	}
+
+	.tab-pane {
+		margin: 5px 0 25px 0;
+	}
+
+	#container-card-database .nav-tabs li {
+		float: left;
+		width: 50%;
+	}
+
+	#container-card-database .nav-tabs li a {
+		float: left;
+		width: 100%;
+		font-size: 14px;
+	}
+
+	/* CARDS */
+	.card-database img {
+		width: 275px;
+		padding: 5px;
+	}
+
+	/* ================================================ ARTICLES PAGES =============================================*/
+	.articles-page {
+		margin: 0;
+		border: none;
+		border-radius: 0;
+	}
+
+	.articles-page h1 {
+		margin: 30% 0 0 0;
+		font-size: 40px;
+	}
+
+	.articles-page h2 {
+		font-size: 25px;
+		padding: 5% 0;
+	}
+
+	.article-img-banner {
+		width: 500px;
+	}
+
+	.article-post-content {
+		margin: 0;
+		padding: 0;
+	}
+
+	.article-post-content p {
+		font-size: 16px;
+	}
+
+	.article-post-content ul {
+		font-size: 15px;
+	}
+
+	.card-post {
+		width: 150px !important; 
+	}
+
+	.card-post-group img {
+		width: 175px;
+	}
+}
+
+/* 320px - 430px*/
+@media screen and (min-width: 294px) and (max-width: 430px){
+	/* WALLPAPER */
+	body {
+		background: url('../img/wallpapers/huatli-wallpaper-xs.png') no-repeat fixed top/800px;
+	}
+
+	/* LOGO */
+	.ixalan-logo {
+		width: 120px;
+		margin-left: 5px;
+	}
+	.logo-news {
+		font-size: 15px;
+	}
+
+	/* NAVBAR MENU */
+	#barra-navegacao>ul>li>a {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	/* BANNER */
+	.banner-text h1 {
+		font-size: 30px;
+	}
+
+	/* BANNER BUTTON */
+	.btn-banner {
+		max-width: 150px;
+		padding: 15px 5px;
+		font-size: 15px;
+	}
+
+	/* ARTICLES AND ABOUT SITE */
+	/* ABOUT-SITE */
+	.featured-articles {
+		padding: 25px 0 25px 0;
+	}
+
+	.featured-articles h1, .featured-articles h2, .featured-articles p {
+		padding-left: 5px;
+		text-align: center;
+	}
+	.featured-articles h1 {
+		margin-top: 50px;
+		font-size: 30px;
+	}
+	.featured-articles h2 {
+		margin-top: 25px;
+		font-size: 20px;
+	}
+
+	.featured-articles p {
+		font-size: 18px;
+	}
+
+	/* ARTICLES */
+	.main-article img, .secundary-article img {
+		margin: 20px 0 0 0;
+	}
+
+	.main-article img, .secundary-article img {
+		width: 400px;
+	}
+
+	.bottom-left-text1 {
+		font-size: 18px;
+	}
+
+	.bottom-left-text2 {
+		font-size: 18px;
+	}
+
+	#view-more {
+		font-size: 20px;
+		margin: 0 32%;
+	}
+
+	#view-more a {
+		text-align: center;
+	}
+
+	/* ======================================================== ABOUT IXALAN ========================================================*/
+	/* DEFAULT */
+	.about-ixalan {
+	background: url('../img/wallpapers/vraska-wallpaper.png') no-repeat center center/1000px;
+	}
+	/* IXALAN INFO */
+	.ixalan-info h1 {
+		text-align: center;
+		font-size: 30px;
+		padding-top: 25px;
+	}
+
+	.ixalan-info h2 {
+		text-align: center;
+		font-size: 16px;
+	}
+
+	.ixalan-info ul {
+		display: table;
+		margin: auto;
+		padding: auto;
+		font-size: 14px;
+	}
+
+	/* IXALAN CARDS */
+	.cards-img img {
+		width: auto;
+		display: table;
+		margin: -100px 0 50px 5px;
+		padding: 0 5px 0 0;
+		transform: rotate(5deg);
+	}
+
+	/* =========================================================== FOOTER ============================================================*/
+	/* ALEXANDRE PEDROZA COPYRIGHT */
+	/* MTG COPYRIGHT */
+	.alex-pedroza-cp {
+		font-size: 12px;
+	}
+	.mtg-logo {
+		margin-left: 0px;
+		height: 25px;
+		width: 140px; 
+	}
+
+	.wizards-logo {
+		margin-left: 10px;
+		height: 25px;
+		width: 140px; 
+	}
+
+	.mtg-copyright .ixalan-logo {
+		margin-left: 0;
+		height: 15px;
+		width: 140px; 
+	}
+
+	/* ===================================================== ARTICLES.HTML ===========================================================*/
+	/* DEFAULT - ARTICLES PAGE */
+	.articles-page {
+		margin: 40% 0 20% 0;
+	}
+
+	.articles-page h1 {
+		font-size: 30px;
+	}
+
+	.articles-page h2 {
+		font-size: 20px;
+		margin-bottom: 10%;
+	}
+
+	.nav-tabs li {
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+
+	.nav-tabs li a {
+		font-size: 14px;
+		float: left;
+		width: 50%;
+	}
+
+	/* MINI ARTICLES */
+	.mini-article {
+		height: auto;
+	}
+
+	.mini-article img {
+		width: 100%;
+	}
+
+	.mini-article h2 {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.mini-article p {
+		font-size: 12px;
+	}
+
+	.mini-article time {
+		font-size: 12px;
+	}
+
+	/* ====================================================== CARD-DATABASE.HTML ====================================================*/
+	/* DEFAULT - CARD-DATABASE PAGES */
+	.card-database {
+		margin: 0;
+		border: none;
+		border-radius: 0;
+	}
+
+	.card-database h1 {
+		margin: 45% 0 0 0;
+		font-size: 30px;
+	}
+
+	.card-database h2 {
+		font-size: 20px;
+	}
+
+	.card-database h3 {
+		margin: 3% 0;
+		font-size: 15px;
+	}
+
+	/* TABS */
+	#container-card-database .nav-tabs li {
+		float: left;
+		width: 50%;
+	}
+
+	#container-card-database .nav-tabs li a {
+		float: left;
+		width: 100%;
+		font-size: 12px;
+	}
+
+	/* CARDS */
+	.card-database img {
+		width: auto;
+		padding: 5px 0;
+	}
+
+	/* ================================================ ARTICLES PAGES =============================================*/
+	.articles-page {
+		margin: 0;
+		border: none;
+		border-radius: 0;
+	}
+
+	.articles-page h1 {
+		margin: 45% 0 0 0;
+		font-size: 30px;
+	}
+
+	.articles-page h2 {
+		font-size: 20px;
+		padding: 3% 0;
+	}
+
+	.article-img-banner {
+		width: 500px;
+	}
+
+	.article-post-content {
+		margin: 0;
+		padding: 0;
+	}
+
+	.article-post-content p {
+		font-size: 14px;
+	}
+
+	.article-post-content ul {
+		font-size: 12px;
+	}
+
+	.card-post {
+		width: 175px !important; 
+	}
+
+	.card-post-group img {
+		width: 125px;
+	}
+}

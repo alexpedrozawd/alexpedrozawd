@@ -1,0 +1,453 @@
+/**
+@author Alexandre Pedroza
+@version 1.5
+@mobile first
+**/
+
+/**********DEFAULT**********/
+html, body {
+	overflow-x: hidden;
+}
+.parallax-window {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+	display: table;
+  	background: transparent;
+}
+/**********NAVBAR**********/
+/*barra de navegação*/
+nav {
+	position: absolute !important;
+}
+nav.navbar-transparente {
+	background: rgba(255,255,255,0.0);
+	width: 100%;
+	border: none;
+}
+/*logo*/
+.img-logo {
+	height: 50px;
+	width: 50px;
+	display: block;
+	background: url('../img/icons/ap.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+.navbar-brand {
+	margin-left: 10px;
+}
+/*menu idiomas*/
+.navbar-header button {
+	margin: 18px 25px 0 0;
+	border: none;
+	background-color: transparent;
+	transition: 1s all;
+}
+.navbar-header .icon-bar {
+	background-color: rgba(0,0,0,0.5) !important;
+	height: 3px !important;
+	width: 30px !important;
+}
+.navbar-header .icon-bar:hover {
+	background-color: rgba(0,0,0,0.5) !important;
+	height: 3px !important;
+	width: 30px !important;
+}
+.navbar-default .navbar-nav>li>a {
+	opacity: 0.9;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	opacity: 1;
+}
+.navbar-collapse {/*remove o underline que fica após clicar no menu mobile*/
+	overflow: visible !important;
+	border-color: transparent !important;
+}
+.language {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	width: 58px;
+	height: 42px;
+}
+.lang-br {
+	top: 5px;
+	right: 20px;
+}
+.lang-uk {
+	top: 35px;
+	right: 20px;
+}
+a.lang-br {
+	top: 5px;
+	right: 20px;
+}
+a.lang-uk {
+	top: 35px;
+	right: 20px;
+}
+/**********BANNER**********/
+/*banner text*/
+.banner-text {
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner h1, .banner h2 {
+	color: #fff;
+}
+.banner h1 {
+	font-size: 3em;
+	padding-bottom: 25px;
+}
+.banner h2 {
+	font-size: 2em;
+	padding-bottom: 75px;
+}
+/*btn portfolio*/
+.btn-custom {
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 50px;
+	padding: 15px 30px;
+	background-color: rgba(0,0,0,0.2);
+	color: #fff;
+	font-size: 1.25em;
+	text-shadow: 1px 1px #000;
+	transition: all 1s;
+}
+.btn-custom:hover, .btn-custom:focus {
+	color: rgba(0,0,0,0.1);
+	border: 1px solid rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,0.2);
+	text-decoration: none;
+}
+/*btn scroll down*/
+.scroll-down-button a {
+	width: 65px;
+    height: 65px;
+    display: block;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    background-image: url('../img/icons/scroll-down.png');
+    background-size: contain;
+    opacity: 0.5;
+}
+.scroll-down-button a:hover {
+    background-image: url('../img/icons/scroll-down-hover.png');
+    opacity: 0.6;
+}
+/**********INTRO**********/
+/*default*/
+.intro {
+	margin: auto;
+}
+.intro h2 {
+	padding: 25px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+
+}
+.intro-img {
+	margin: auto;
+	text-align: center;
+	width: 50px;
+	padding: 0 0 25px 0;
+}
+.intro p {
+	font-size: 1em;
+	padding: 15px;
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.intro a {
+	color: #2d3436;
+	font-weight: bold;
+}
+.intro a:hover, .intro a:focus {
+	text-decoration: none;
+	color: #b2bec3;
+	transition: 0.5s all;
+}
+.scroll-down-button-intro a {
+	width:  65px;
+    height: 65px;
+    display: block;
+    position: relative;
+    top: 0px; 
+    margin: auto;
+    margin-bottom: 25px;
+    background-image: url('../img/icons/scroll-down.png');
+    background-size: contain;
+    opacity: 0.5;
+}
+.scroll-down-button-intro a:hover {
+    background-image: url('../img/icons/scroll-down-hover.png');
+    opacity: 0.6;
+}
+/**********PORTFOLIO**********/
+/*default*/
+.portfolio {
+	width: 100%;
+	overflow: hidden;
+	margin: auto;
+	background: rgba(250, 177, 160,0.05);
+}
+/*texto*/
+.portfolio h2 {
+	padding: 25px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.portfolio-img {
+	margin: auto;
+	text-align: center;
+	width: 50px;
+	padding: 0 0 15px 0;
+}
+.portfolio p {
+	font-size: 1em;
+	padding: 15px 40px 50px 40px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+/*slideshow*/
+#i1, #i2 { 
+	display: none;
+}
+.slide-container {
+	margin: 0 auto;
+	position: relative;
+	width: 70%;
+	height: 0;
+    user-select: none;
+}
+.slide-container {/*tamanho dos slides*/
+	width: 100%;
+	height: 0;
+	padding-bottom: 55%;
+}
+.slide-container .slide_img {/*visualisar container dos slides*/
+	position: absolute;
+	width: 100%;;
+	height: 100%;
+}
+.slide-container .slide_img a {
+	width: inherit;
+	height: inherit;
+}
+.slide-container .slide_img img {/*visualisar os slides*/
+	width: inherit;
+	height: inherit;
+}
+.prev, .next {
+	width: 12%;
+	height: inherit;
+	position: absolute;
+	top:0; 
+	background-color: rgba(0, 0, 0,.5);
+	color:rgba(244, 244, 244,.9);
+	z-index: 99;
+	transition: .45s;
+	cursor: pointer;
+	text-align: center;
+}
+.next {
+	right:0;
+}
+.prev {
+	left:0;
+}
+label span {
+	position: absolute;
+	font-size: 25pt;/*tamanho dos botões next/prev*/
+	top: 50%;
+ 	transform: translateY(-50%);
+}
+.prev:hover, .next:hover {
+	transition: .3s;
+	background-color: rgba(0, 0, 0,.75);
+	color: #ffffff; 
+}
+.slide-container #nav_slide {/*altura dos dots*/
+	width: 100%;
+	bottom: 5%;
+	height: 11px;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+	cursor: default;
+}
+#nav_slide .dots {/*tamanho dos dots*/
+	top: -5px;
+	width: 12px;
+	height: 12px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 100%;
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: .4s;
+}
+#nav_slide .dots:hover {
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: .25s
+}
+.slide_img {
+	z-index: -1;
+}
+#i1:checked ~ #one , #i2:checked ~ #two {
+	z-index: 9; animation: scroll 1s ease-in-out;
+}
+#i1:checked  ~  #nav_slide #dot1, #i2:checked  ~  #nav_slide #dot2,  ~  #nav_slide #dot3 {
+	background-color: rgba(255,255,255,.9);
+}
+@keyframes scroll {
+	0% {
+		opacity:.4;
+	}
+	100% {
+		opacity:1;
+	}
+}
+/*botão scroll down portfolio*/
+.scroll-down-button-portfolio a {
+	width:  65px;
+    height: 65px;
+    display: block;
+    position: relative;
+    top: 1	5px; 
+    margin: auto;
+    margin-bottom: 15px;
+    background-image: url('../img/icons/scroll-down.png');
+    background-size: contain;
+    opacity: 0.5;
+}
+.scroll-down-button-portfolio a:hover {
+    background-image: url('../img/icons/scroll-down-hover.png');
+    opacity: 0.6;
+}
+/**********CONTATO**********/
+/*default*/
+.contato {
+	margin: auto;
+	text-align: center;
+}
+/*texto*/
+.contato h2 {
+	padding: 25px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.contato-img {
+	margin: auto;
+	text-align: center;
+	width: 40px;
+	padding: 5px 0;
+}
+.contato p {
+	font-size: 1em;
+	padding: 25px;
+	font-family: 'Montserrat', sans-serif;
+}
+/*botão contato*/
+.btn-contato {
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 10px 25px;
+	display: inline-block;
+	margin: 0 0 50px 0;
+	background-color: rgba(0,0,0,0.1);
+	color: #000;
+	font-size: 1.25em;
+	transition: all 0.5s;
+	text-align: center;
+}
+.btn-contato:hover, .btn-contato:focus {
+	color: rgba(0,0,0);
+	border: 1px solid rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,0.75);
+	text-decoration: none;
+}
+/*mapa*/
+iframe {
+	text-align: center;
+	margin: auto;
+	width: 250px;
+	height: 300px;
+}
+/*botão voltar ao topo*/
+.scroll-up-button a {
+	width:  65px;
+    height: 65px;
+    display: block;
+    margin: auto;
+    background-image: url('../img/icons/scroll-up.png');
+    background-size: contain;
+    opacity: 0.5;
+}
+.scroll-up-button a:hover {
+    background-image: url('../img/icons/scroll-up-hover.png');
+    opacity: 0.6;
+}
+/**********FOOTER**********/
+/*default*/
+footer {
+	background: #000;
+	padding: 25px 0;
+	color: #fff;
+}
+/*texto*/
+#footer h4 {
+	font-size: 1em;
+	text-align: center;
+	font-weight: 800;
+}
+#footer ul {
+	margin-top: 20px;
+	list-style: none;
+	font-size: 0.75em;
+	color: #fff;
+	margin-left: -35px;
+	text-align: center;
+}
+#footer p {
+	font-size: 0.75em;
+	text-align: center;
+}
+#footer ul.nav {
+	display: table;
+	margin: auto;
+}
+#footer .feedback p {
+	text-align: center !important; 
+	display: block !important;
+}
+/*redes sociais*/
+#footer img {
+	width: 50px;
+}
+.social-icons {
+	margin: -10px -15px;
+	float: left;
+}
+.social-icons a:hover, .social-icons a:focus {/*coloquei ":focus"pq o background estava ficando branco após clicar*/
+	background: none !important;
+	opacity: 0.5;
+	transition: 1s;
+}
+/*botão feedback*/
+#footer .btn {
+	font-size: 0.9em;
+	display: table;
+	margin: auto;
+}
+#footer .btn:hover, .btn:focus {
+	background: #fff;
+	opacity: 1;
+}

@@ -1,0 +1,560 @@
+/*
+* @author Alexandre Pedroza
+* @version 0.1
+*/
+
+/* ========================================================== DEFAULT =============================================================*/
+html, body, .banner, .card-database {
+	/* height: 100%; OBS: removi devido ao scrollbar estar SEMPRE debaixo do menu em exibição acima de 780px, apenas dispositivos móveis estavam funcionando 100%. Após remover, ajeitei o height desejado em pixels na classe .banner*/
+	overflow-x: hidden;
+}
+
+body {
+	background: url('../img/wallpapers/huatli-wallpaper-lg.png') no-repeat fixed top/1920px;
+	font-family: 'Roboto', sans-serif;
+	/*-webkit-filter: blur(2px); ------ ADICONAR BLUR EFFECT EM PÁGINAS*/
+
+}
+
+* {
+    -webkit-overflow-scrolling: touch;
+}
+
+/* =========================================================== NAVBAR =============================================================*/
+/* NAVBAR */
+
+nav.navbar-transparente {
+	padding: 30px 0;
+	background: rgba(0,0,0,0.8);
+	border: none;
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+/* LOGOS */
+
+.logo-news {
+	position: relative;
+	top: 20px;
+	color: #fff;
+	font-style: italic;
+	font-size: 20px;
+	text-shadow: 1px 1px rgba(255,255,255,.5);
+}
+
+.logo-news:hover {
+	color: #fff;
+	text-decoration: none;
+	cursor: default;
+}
+
+#navbar-brand-cursor {
+	cursor: default;
+}
+
+.ixalan-logo {
+	height: 45px;
+	width: 180px;
+	display: block;
+	background: url('../img/logos/xln-lg-logo.png') no-repeat;
+	background-size: contain; /*Obs: o contain define que o tamanho do background vai ser igual ao tamanho definido pelo height e width na classe .img-logo*/
+	color: transparent;
+}
+
+.ixalan-logo:hover {
+	cursor: default;
+}
+
+.mtg-logo {
+	height: 45px;
+	width: 180px;
+	display: block;
+	background: url('../img/logos/mtg-lg-logo.png') no-repeat;
+	background-size: contain; /*Obs: o contain define que o tamanho do background vai ser igual ao tamanho definido pelo height e width na classe .img-logo*/
+	color: transparent;
+}
+
+.wizards-logo {
+	height: 45px;
+	width: 180px;
+	display: block;
+	background: url('../img/logos/wizards-logo.png') no-repeat;
+	background-size: contain; /*Obs: o contain define que o tamanho do background vai ser igual ao tamanho definido pelo height e width na classe .img-logo*/
+	color: transparent;
+}
+
+/* NAVBAR MENU */
+#barra-navegacao>ul>li>a {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-size: 20px;
+	margin: 0 10px 0 0;
+}
+
+#barra-navegacao>ul>li>a:hover {
+	color: #607d8b;
+	transition: linear 0.2s;
+}
+
+.divisor-menu {
+	margin: 0 0 0 100px;
+}
+
+/* NAVBAR MENU DROPDOWN */
+ul.nav li.dropdown:hover ul.dropdown-menu { 
+	display: block; 
+}
+
+/* LANGUAGE MENU*/
+.language {
+	opacity: 0.75;
+	height: 38px;
+	width: 50px;
+}
+
+.language:hover {
+	opacity: 1;
+	transition: 0.2s linear;
+}
+
+/* ================================================================================================================================*
+														MAIN PAGE
+*==================================================================================================================================*/
+
+/* ======================================================== BANNER ========================================================*/
+.banner {
+	display: table;
+	width: 100%;
+	height: 100vh;
+}
+
+.banner-text {
+	color: #fff;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.banner-text h1 {
+	padding-top: 10%;
+	font-size: 60px;
+	font-weight: 900;
+	font-family: 'Joti One', cursive;
+	letter-spacing: 2px;
+	text-shadow: 5px 5px rgba(0,0,0,.5);
+	margin-bottom: 50px;
+	vertical-align: middle;
+}
+
+.banner-text h1:hover {
+	cursor: default;
+}
+
+/* BANNER BUTTON */
+.btn-banner {
+	padding: 15px 25px;
+	color: #fff;
+	text-shadow: 2px 2px rgba(0,0,0,0.6);
+	display: block;
+	font-size: 25px;
+	font-weight: 400;
+	margin: 0 auto 2em;
+	max-width: 220px; 
+	position: relative;
+	text-transform: uppercase;
+	vertical-align: middle;
+	border: 2px solid #fff;
+	background: rgba(255,255,255,0.5);
+	border-radius: 10px;
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+	outline-color: rgba(255, 255, 255, .5);
+	outline-offset: 0px;
+	transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-banner:hover {
+	text-decoration: none;
+	color: #fff;
+	background: rgba(255,255,255,0.8);
+	box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, 1);
+}
+
+.btn-glyph {
+	padding-left: 10px;
+}
+
+/* ============================================ ARTICLES AND ABOUT SITE ==================================================*/
+/* FEATURED ARTICLES */
+.featured-articles {
+	background: rgba(255,255,255,0.9);
+	padding: 90px 0 90px 0;
+}
+
+/* ABOUT-SITE */
+.featured-articles h1, .featured-articles h2, .featured-articles p {
+	padding-left: 180px;
+	color: #c0392b;
+	text-shadow: 1px 1px rgba(0,0,0,0.8);
+}
+
+.featured-articles h1 {
+	margin-top: 125px;
+	font-size: 40px;
+	font-family: 'Joti One', cursive;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+
+.featured-articles h2 {
+	margin-top: 25px;
+	font-size: 25px;
+}
+
+.featured-articles p {
+	color: black;
+	font-size: 20px;
+	text-shadow: none;
+}
+
+
+/* ARTICLES */
+.main-article img, .secundary-article img {
+	border-radius: 5px;
+	margin: 30px 0 20px 0;
+	width: 600px;
+	opacity: 0.9;
+}
+
+.main-article img, .secundary-article img:hover {
+	opacity: 1;
+	transition: 0.5s linear all;
+}
+
+.main-article {
+	margin: 25px 0 0 0;
+	position: relative;
+}
+
+.bottom-left-text1 {
+	text-align: left;
+	color: #fff;
+	position: absolute;
+	text-shadow: 2px 2px black;
+	bottom: 25px;
+	left: 25px;
+	font-size: 20px;
+
+}
+
+.bottom-left-text1:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.bottom-left-text2 {
+	text-align: left;
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	text-shadow: 2px 2px black;
+	bottom: 25px;
+	left: 25px;
+}
+
+.bottom-left-text2:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+#view-more {
+	color: #c0392b;
+	text-shadow: 1px 1px rgba(0,0,0,0.8);
+	font-size: 30px;
+	margin: 0 37%;
+	opacity: 0.8;
+}
+
+#view-more:hover {
+	text-decoration: inherit;
+	opacity: 1;
+	transition: 0.3s;
+}
+
+/* ======================================================== ABOUT IXALAN ========================================================*/
+/* IXALAN INFO */
+.about-ixalan {
+	background: url('../img/wallpapers/vraska-wallpaper.png') no-repeat center top/1900px;
+	color: #fff;
+	text-shadow: 2px 2px rgba(0,0,0,0.5)
+}
+
+.ixalan-info h1 {
+	padding-top: 180px;
+	font-family: 'Joti One', cursive;
+	font-size: 50px;
+}
+
+.ixalan-info h2 {
+	padding-top: 25px;
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+.ixalan-info ul {
+	font-size: 20px;
+	padding: 20px 0 180px 0;
+
+}
+
+.ixalan-info ul>li {
+	margin-left: 25px;
+}
+
+/* IXALAN CARDS */
+.cards-img img {
+	width: 300px;
+	padding-top: 225px;
+	padding-left: 25px;
+	transform: rotate(10deg);
+}
+
+
+/* =========================================================== FOOTER ============================================================*/
+/* DEFAULT - FOOTER PAGE */
+.site-footer {
+	color: #fff;
+	background: #000;
+	padding: 10px 0 0 0;
+	position: relative;
+	font-size: 15px;
+}
+
+.site-footer a {
+	color: #fff;
+}
+
+.site-footer a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* ALEXANDRE PEDROZA COPYRIGHT */
+.alex-pedroza-cp {
+	padding: 10px 0 20px 0;
+	text-align: center;
+}
+
+/* MTG COPYRIGHT */
+.mtg-copyright {
+	padding: 0 0 20px 0;
+	text-align: center;
+}
+
+.mtg-logo {
+	margin-bottom: 5px;
+	margin-left: 115px;
+}
+
+.wizards-logo {
+	margin-bottom: 5px;
+	margin-left: 130px;
+}
+
+.mtg-copyright .ixalan-logo {
+	margin-bottom: 5px;
+	margin-left: 90px;
+}
+
+/* ================================================================================================================================*
+														SECUNDARY PAGES
+*=================================================================================================================================*/
+
+/* ===================================================== ARTICLES.HTML ===========================================================*/
+/* DEFAULT - ARTICLES PAGE */
+.articles-page {
+	margin: 9.5% 0 5% 0;
+	padding-bottom: 5%;
+	background: rgba(255,255,255,0.9);
+	border: 2px double rgba(231, 76, 60,0.3);
+	border-radius: 10px;
+}
+
+.articles-page a:hover {
+	text-decoration: none;
+}
+
+.articles-page h1 {
+	text-align: center;
+	margin: 2% 0 0 0;
+	font-family: 'Joti One', cursive;
+	font-size: 50px;
+	font-weight: 900;
+	color: #c0392b;
+	text-shadow: 2px 2px rgba(0,0,0,0.8);
+}
+
+.articles-page h2 {
+	text-align: center;
+	text-shadow: 2px 2px rgba(0,0,0,0.3);
+	margin-bottom: 1%;
+}
+
+/* MINI ARTICLES */
+.mini-article {
+	margin: 2% 1%;
+	border-radius: 15px;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+.mini-article:hover {
+	background: rgba(231, 76, 60,.1);
+	transition: 0.4s all linear;
+}
+
+.mini-article {
+	height: 400px;
+}
+
+.mini-article img {
+	display: block;
+	width: auto;
+	border-radius: 15px 15px 0 0;
+}
+
+.mini-article h2 {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.mini-article p {
+	font-size: 16px;
+	font-weight: 300;
+	padding: 0 5px 0 5px;
+}
+
+.mini-article time {
+	font-size: 15px;
+	font-weight: 200;
+	color: rgba(0,0,0,0.8);
+}
+
+.mini-article a {
+	color: black;
+}
+
+.mini-article a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+/* ====================================================== CARD-DATABASE.HTML ====================================================*/
+/* DEFAULT - CARD-DATABASE PAGES */
+.card-database {
+	margin: 9.5% 5% 5% 5%;
+	background: rgba(255,255,255,0.9);
+	border: 2px double rgba(231, 76, 60,0.3);
+	border-radius: 10px;
+	display: block;
+}
+
+.card-database h1 {
+	text-align: center;
+	margin: 5% 0 3% 0;
+	font-family: 'Joti One', cursive;
+	font-size: 50px;
+	font-weight: 900;
+	color: #c0392b;
+	text-shadow: 2px 2px rgba(0,0,0,0.8);
+}
+
+.card-database h2 {
+	text-align: center;
+	text-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+
+.card-database h3 {
+	color: rgba(189, 195, 199,0.8);
+	text-align: center;
+	text-transform: uppercase;
+	margin: 3% 0;
+}
+
+.card-database a:hover {
+	text-decoration: none;
+}
+
+/* TABS */
+.nav-tabs {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.tab-pane {
+	text-align: center;
+	margin: 5px 0 25px 0;
+}
+
+/* CARDS */
+.card-database img {
+	padding: 7px;
+}
+
+/* ====================================================== ARTICLE PAGES =--======================================================*/
+/* DEFAULT - ARTICLE POSTS PAGE */
+.article-post-content {
+	padding: 50px;
+}
+
+/* ARTICLES PAGES */
+.article-img-banner {
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	width: 700px;
+}
+
+.card-post {
+	display: table;
+	margin: auto;
+	width: 300px;
+}
+
+.card-post-group {
+	text-align: center;
+}
+
+.card-post-group img {
+	width: 225px;
+}
+
+.card-post-group .img-responsive{
+	display: inline-block;
+	padding: 2px;
+}
+
+.article-post-content p {
+	padding: 25px;
+	text-align: justify;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.article-post-content ul {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	display: table;
+	padding: 0;
+	margin: auto;
+}
+
+.article-post-content ul>span {
+	list-style: none;
+	font-weight: 600;
+	padding: 20px;
+}
+

@@ -1,0 +1,357 @@
+/*
+* @author Alexandre Pedroza
+* @version 0.2
+*/
+
+/* ====================================================== RESET =========================================================*/
+* {
+	margin: 0; 
+	padding: 0; 
+	outline: 0; 
+	list-style: none; 
+	font-size: 100%;
+}
+a {
+	text-decoration: none; 
+	color: #F8F8F8
+}
+a:hover {
+	text-decoration: none;
+}
+
+/* ====================================================== HEADER =========================================================*/
+.container {
+	float: left;
+	width: 100%;
+}
+.content {
+	float: left;
+	width: 95%;
+	margin: 0 2.5%;
+}
+.header-top {
+	float: left;
+	width: 100%;
+	height: auto;
+	padding: 20px 0;
+	background: url(../img/computer-banner1.png) no-repeat center top/2200px;
+}
+.logo {
+    background: url(../img/holdriz-logo-original.png) no-repeat left 7.5% top 5px /300px, url(../img/computer-icon.png) no-repeat center top/175px;
+    float: left;
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.header-top p {
+	float: left;
+	text-align: center;
+	color: #F8F8F8;
+	width: 80%;
+	margin: 30px 10%;
+	font: 400 2em "Roboto";
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+	text-transform: uppercase;
+}
+.header-top h1 {
+	color: #F8F8F8;
+	float: left;
+	width: 72%;
+	margin: 0 14% 20px 14%;
+	text-align: center;
+	font: 800 2.6em "Open Sans";
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-transform: uppercase;
+}
+.header-top h2 {
+	float: left;
+	width: 90%;
+	margin: 20px 5%;
+	text-align: center;
+	font: 400 1.3em "Roboto";
+	color: #F8F8F8;
+	text-transform: uppercase;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.header-top span {
+	color: #00ff83;
+}
+.btn-participar {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 35px 0 55px 0;
+}
+.btn-participar a {
+	text-transform: uppercase;
+	background: #63d89f;
+	padding: 10px 20px;
+	border-radius: 20px;
+	font: 400 1.2em "Roboto";
+	text-shadow: 1px 1px 1px #44946d;
+}
+.btn-participar a:hover {
+	background: #00ff83;
+	transition: all 0.1s linear;
+}
+
+/* ====================================================== DETAILS =========================================================*/
+.content-details {
+	color: #818181;
+}
+.content-details .content .icons-img {
+	text-align: center;
+	margin: auto;
+}
+.content-details h3 {
+	float: left;
+	width: 100%;
+	padding: 10px 0 40px 0;
+	font: 400 1.75em 'Roboto';
+	text-align: center;
+	margin: 40px 0 0 0;
+}
+.content-details p {
+	float: left;
+	width: 75%;
+	margin: 40px 12.5%;
+	text-align: center;
+	font: 400 1.5em 'Roboto';
+}
+.content-details img {
+	width: 125px;
+	margin: 25px 2.5%;
+	border-radius: 100px
+}
+.content-details .icons-img:nth-child(4){
+	margin-bottom: 50px;
+}
+.content-details .icons-img:nth-child(5){
+	margin-bottom: 50px;
+}
+.content-details .icons-img:nth-child(6){
+	margin-bottom: 50px;
+}
+
+/* ====================================================== GRID =========================================================*/
+.content-grid {
+	float: left;
+	width: 100%;
+	padding: 0 0 50px 0;
+	background: #40567a;
+}
+.content-grid h3 {
+	float: left;
+	width: 100%;
+	font: 300 1.5em 'Roboto';
+	text-align: center;
+	padding: 60px 0 30px 0;
+	color: #e0e0e0;
+}
+.content-itens {
+	float: left;
+	width: 70%;
+	margin: 0 15%;
+}
+.content-item {
+	float: left;
+	width: 33.3%;
+	height: 300px;
+	color: #e9e9e9;
+	cursor: default;
+}
+
+.content-item h3 {
+	float: left;
+	width: 100%;
+	color: #e9e9e9;
+	margin: 60px 0 0 0;
+	font: 100 1.4em 'Roboto';
+}
+.content-item p {
+	padding: 0 2px;
+	float: left;
+	width: 100%;
+	margin: 0 0 50px 0;
+	text-align: center;
+	font: 300 1em 'Roboto';
+}
+.content-item:nth-child(1) {
+	background: url("../img/ccleaner.png") no-repeat center top/100px;
+}
+.content-item:nth-child(2) {
+	background: url("../img/hard-disk.png") no-repeat center top 10px/100px;
+}
+.content-item:nth-child(3) {
+	background: url("../img/virus.png") no-repeat center top 10px/100px;
+}
+.content-item:nth-child(4) {
+	background: url("../img/maintenance.png") no-repeat center top 10px/100px;
+}
+.content-item:nth-child(5) {
+	background: url("../img/clean.png") no-repeat center top 10px/100px;
+}
+.content-item:nth-child(6) {
+	background: url("../img/products.png") no-repeat center top 10px/100px;
+}
+.content-item:nth-child(1):hover {
+	background: url("../img/ccleaner-hover.png") no-repeat center top/100px #162338; border-radius: 5px; transition: all 0.3s ease-out 0s; color: #fff;
+}
+.content-item:nth-child(2):hover {
+	background: url("../img/hard-disk-hover.png") no-repeat center top 10px/100px #162338; border-radius: 5px; transition: all 0.3s ease-out 0s; color: #fff;
+}
+.content-item:nth-child(3):hover {
+	background: url("../img/virus-hover.png") no-repeat center top 10px/100px #162338; border-radius: 5px; transition: all 0.3s ease-out 0s; color: #fff;
+}
+.content-item:nth-child(4):hover {
+	background: url("../img/maintenance-hover.png") no-repeat center top 10px/100px #162338; border-radius: 5px; transition: all 0.3s ease-out 0s; color: #fff;
+}
+.content-item:nth-child(5):hover {
+	background: url("../img/clean-hover.png") no-repeat center top 10px/100px #162338; border-radius: 5px; transition: all 0.3s ease-out 0s; color: #fff;
+}
+.content-item:nth-child(6):hover {
+	background: url("../img/products-hover.png") no-repeat center top 10px/100px #162338; border-radius: 5px; transition: all 0.3s ease-out 0s; color: #fff;
+}
+
+/* ====================================================== STATISTICS =========================================================*/
+.content-statistics {
+	float: left;
+	width: 70%;
+	margin: 0 15%;
+	text-align: center;
+
+}
+.content-statistics h3 {
+	float: left;
+	width: 90%;
+	margin: 20px 5% 30px 5%;
+	font: 300 1.75em "Roboto";
+	color: #818181;
+
+}
+.content-statistics p {
+	float: left;
+	width: 60%;
+	margin: 0 20%;
+	font: 300 1.25em "Roboto";
+	color: #818181;
+	margin-bottom: 20px;
+}
+.statistic-itens {
+	float: left;
+	width: 100%;
+}
+.statistics-item {
+	float: left;
+	width: 33.33333333333333%;
+}
+.statistics-item h3 {
+	width: 90%;
+	margin: 180px 5% 10px 5%;
+	color: black;
+	font: 300 2.5em "Roboto";
+}
+.statistics-item:nth-child(1){
+	background: url("../img/estatistica1.png") no-repeat center top;
+}
+.statistics-item:nth-child(2){
+	background: url("../img/estatistica2.png") no-repeat center top;
+}
+.statistics-item:nth-child(3){
+	background: url("../img/estatistica3.png") no-repeat center top;
+}
+.statistics-item p {
+	width: 90%;
+	margin: 0px 5% 20px 5%;
+	color: black;
+	font: 300 1.25em "Roboto";
+}
+
+/* ====================================================== NEWSLETTER =========================================================*/
+.content-newsletter {
+	width: 100%;
+	float: left;
+	margin: 50px 0;
+	text-align: center;
+	color: #818181
+}
+.content-newsletter h3 {
+	width: 100%;
+	float: left;
+	font: 300 1.5em "Roboto";
+}
+.content-newsletter p {
+	width: 100%;
+	float: left;
+	font: 300 1em "Roboto";
+	margin: 20px 0 0 0;
+}
+.form-newsletter {
+	width: 35%;
+	margin: 50px 0 0 20%;
+	float: left;
+}
+.form-newsletter input {
+	float: right;
+	display: block;
+	text-align: center;
+	height: 30px;
+	width: 300px;
+	margin: 1px 0;
+	color: #818181;
+	background: #e6e6e6;
+	border-radius: 5px;
+}
+.form-newsletter input:hover {
+	background: #fff;
+	transition: all 0.3s linear;
+}
+.btn-newsletter {
+	width: 25%;
+	margin: 50px 20% 0 0;
+	float: right;
+}
+.btn-newsletter button {
+	float: left;
+	width: 150px;
+	height: 70px;
+	border: 1px 0 0 1px solid #818181;
+	border-radius: 5px;
+	text-align: center;
+	font: 400 1.25em "Roboto";
+	text-transform: uppercase;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	background: #63d89f;
+	color: #fff;
+}
+.btn-newsletter button:hover {
+	background: #00ff83;
+	color: #fff;
+	transition: all 0.3s linear;
+}
+
+
+/* ====================================================== FOOTER =========================================================*/
+.footer {
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+	text-align: center;
+	background: #40567a;
+	color: #fff;
+	font: 300 0.9em "Roboto";
+}
+.social {
+	width: 100%;
+	float: left;
+	margin: 0 0 10px 0;
+	font: 700 1.5em white;
+}
+.social a {
+	margin-right: 20px;
+	color: white;
+}
+.social a:hover {color: #b7c2d6; transition: all 0.3s linear;}
+.social a:last-child {margin-right: 0;}
+}

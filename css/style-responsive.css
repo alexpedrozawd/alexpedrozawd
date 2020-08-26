@@ -1,0 +1,505 @@
+/**
+@author Alexandre Pedroza
+@version 1.5
+@responsive css
+**/
+
+/*500px +*/
+@media screen and (min-width: 500px) {
+/**********BANNER**********/
+/*banner text*/
+.banner h1, .banner h2 {
+	padding-left: 25px; 
+	padding-right: 25px;
+}
+.banner h1 {
+	font-size: 3em;
+}
+.banner h2 {
+	font-size: 2em;
+}
+/*botão do banner*/
+.btn-custom {
+	padding: 15px 40px;
+	font-size: 1.25em;
+}
+/*botão descer*/
+.scroll-down-button a {
+	width: 75px;
+    height: 75px;
+    top: 30px; 
+}
+/**********INTRO**********/
+/*texto*/
+.intro h2, .intro p {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.intro h2 {
+	font-size: 2em;
+}
+.intro p {
+	font-size: 1em;
+}
+.intro-img img {
+	width: 125px;
+}
+/*botão descer intro*/
+.scroll-down-button-intro a {
+	width: 75px;
+    height: 75px;
+}
+/**********PORTFOLIO**********/
+/*texto*/
+.portfolio h2, .portfolio p {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.portfolio h2 {
+	font-size: 2em;
+}
+.portfolio p {
+	font-size: 1em;
+}
+.portfolio-img img {
+	width: 125px;
+}
+/*slideshow*/
+label span {
+	font-size: 40pt;
+}
+.slide-container #nav_slide {
+	bottom: 3%;
+	height: 15px;
+}
+#nav_slide .dots {
+	top: -5px;
+	width: 15px;
+	height: 15px;
+	margin: 0 4px;
+}
+.scroll-down-button-portfolio a {
+	width: 75px;
+	height: 75px;
+}
+/*****CONTATO******/
+/*texto*/
+.contato h2, .contato p {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.contato h2 {
+	font-size: 2em;
+}
+.contato p {
+	font-size: 1em;
+}
+.contato-img img {
+	width: 125px;
+}
+/*mapa*/
+iframe {
+	width: 400px;
+	height: 350px;
+}
+.scroll-up-button a {
+	width: 75px;
+    height: 75px;
+}
+/*****FOOTER******/
+/*texto*/
+#footer h4 {
+	font-size: 1em;
+}
+#footer ul {
+	font-size: 0.9em;
+}
+#footer p {
+	font-size: 0.9em;
+}
+/*redes sociais*/
+#footer img {
+	width: 60px;
+}
+.social-icons {
+	margin: -10px -20px;
+}
+/*botão feedback*/
+#footer .btn {
+	font-size: 1em;
+	font-weight: 600;
+}
+}
+
+/*768px+*/
+@media screen and (min-width: 768px) {
+/*NAV*/
+/*logo*/
+.img-logo {
+	position: absolute;
+	left: 30px;
+}
+/*menu idiomas*/
+#language-button {
+	position: absolute;
+	right: 30px;
+}
+#language-button ul li a img {
+	margin: 0 -15px;
+}
+.lang-br {
+	top: 15px;
+	right: 40px;
+}
+.lang-uk {
+	top: 15px;
+	right: 15px;
+}
+/**********BANNER**********/
+/*banner text*/
+.banner h1 {
+	font-size: 3.5em;
+}
+.banner h2 {
+	font-size: 2.5em;
+}
+/*botão do banner*/
+.btn-custom {
+	padding: 17px 45px;
+	font-size: 1.5em;
+}
+/*botão descer*/
+.scroll-down-button a {
+    top: 30px; 
+}
+/**********INTRO**********/
+/*texto*/
+.intro h2, .intro p {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.intro h2 {
+	padding: 50px 0;
+}
+.intro p {
+	padding-top: 50px;
+}
+/**********PORTFOLIO**********/
+/*texto*/
+.portfolio p {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.portfolio-img img {
+	width: 100px;
+}
+/*slideshow*/
+label span {
+	font-size: 40pt;
+}
+.slide-container #nav_slide {
+	bottom: 3%;
+	height: 15px;
+}
+#nav_slide .dots {
+	top: -5px;
+	width: 15px;
+	height: 15px;
+	margin: 0 4px;
+}
+.scroll-down-button-portfolio a {
+	width: 75px;
+    height: 75px;
+}
+/*****CONTATO******/
+/*texto*/
+.contato h2, .contato p {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.contato h2 {
+	font-size: 2em;
+}
+.contato p {
+	font-size: 1em;
+}
+.contato-img img {
+	width: 100px;
+}
+/*mapa*/
+iframe {
+	width: 600px;
+	height: 350px;
+}
+.scroll-up-button a {
+	width: 75px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+/*****FOOTER******/
+/*texto*/
+#footer h4 {
+	font-size: 1.1em;
+}
+#footer ul {
+	font-size: 1em;
+}
+#footer p {
+	font-size: 1em;
+}
+/*redes sociais*/
+#footer img {
+	width: 60px;
+}
+.social-icons {
+	margin: -10px -20px;
+}
+/*botão feedback*/
+#footer .btn {
+	font-size: 1em;
+	font-weight: 600;
+}
+}
+
+/*992px+*/
+@media screen and (min-width: 992px) {
+/**********INTRO**********/
+/*texto*/
+.intro-img {
+	width: 75px;
+}
+/**********PORTFOLIO**********/
+/*texto*/
+.portfolio h2 {
+	padding-bottom: 0;
+}
+.portfolio-img {
+	margin-top: 25px;
+	width: 70px;
+}
+/*****CONTATO******/
+/*texto*/
+.contato-img {
+	width: 75px;
+}
+/*mapa*/
+iframe {
+	width: 400px;
+	height: 350px;
+}
+.scroll-up-button a {
+	width: 75px;
+    height: 75px;
+    margin-bottom: 25px;
+}
+/*FOOTER*/
+/*texto*/
+.feedback p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*redes sociais*/
+#footer img {
+	width: 75px;
+	margin-top: -15px;
+}
+/*botão feedback*/
+#footer .btn {
+	font-size: 0.8em;
+}
+}
+
+/*1200px+*/
+@media screen and (min-width: 1200px) {
+/*****INTRO*****/
+/*texto*/
+.intro h2 {
+	padding: 25px 0 50px 0;
+}
+.intro p {
+	padding: 25px 175px;
+}
+.intro-img img {
+	width: 100px;
+}
+/*botão descer intro*/
+.scroll-down-button-intro a {
+    top: -25px;
+}
+/*****PORTFOLIO*****/
+/*texto*/
+.portfolio h2 {
+	padding-bottom: 25px;
+}
+.portfolio p {
+	padding: 25px 175px;
+}
+/*slideshow*/
+.slide-container {
+	padding-bottom: 45%; 
+}
+#nav_slide .dots {
+	width: 20px;
+	height: 20px;
+}
+/*botão descer*/
+.scroll-up-button {
+	width: 75px;
+    height: 75px;
+}
+/*****CONTATO*****/
+/*default*/
+.contato {
+	height: 100vh;
+}
+/*texto*/
+.contato-img {
+	padding-top: 25px;
+	width: 75px;
+}
+.contato p {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*botão contato*/
+.btn-contato {
+	font-weight: 600;
+}
+/*mapa*/
+.iframe {
+	position: relative;
+	top: 50px;
+	left: 25px;
+}
+/*botão voltar ao topo*/
+.scroll-up-button {
+	position: relative;
+	bottom: -150px;
+	left: 600px;
+}
+.contato {
+margin-bottom: -100px;
+}
+/*FOOTER*/
+/*texto*/
+.feedback p {
+	padding-bottom: 15px;
+}
+/*botão feedback*/
+#footer .btn {
+	font-size: 1em;
+	padding: 7px 15px;
+	font-weight: 600;
+}
+}
+/**/
+@media screen and (min-width: 1360px){
+/*****INTRO*****/
+.intro h2 {
+}
+
+/*****CONTATO*****/
+/*mapa*/
+.iframe {
+	position: relative;
+	top: 25px;
+}
+/*botão voltar ao topo*/
+.scroll-up-button {
+	position: relative;
+	bottom: -60px;
+	left: 652px;
+}
+}
+
+/*1400px+*/
+@media screen and (min-width: 1400px) {
+/*****INTRO*****/
+.intro {
+	height: 100vh;
+}
+/*texto*/
+.intro h2 {
+	padding: 50px 0;
+	font-size: 2em;
+}
+.intro p {
+	padding: 50px 100px;
+	font-size: 1.25em;
+}
+/*botão descer intro*/
+.scroll-down-button-intro a {
+    top: 50px;
+}
+
+.intro {
+	margin-bottom: -100px;
+}
+/*****PORTFOLIO*****/
+/*texto*/
+.portfolio h2 {
+	font-size: 2em;
+	padding-bottom: 25px;
+}
+.portfolio p {
+	font-size: 1.25em;
+}
+/*****CONTATO*****/
+/*texto*/
+.contato h2 {
+	font-size: 2em;
+}
+.contato-img {
+	width: 75px;
+	padding-top: 150px;
+}
+.contato p {
+	font-size: 1.25em;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*mapa*/
+.iframe {
+	position: relative;
+	top: 150px;
+	left: 25px;
+}
+/*botão voltar ao topo*/
+.scroll-up-button {
+	position: relative;
+	bottom: -175px;
+	left: 47.5%;
+}
+/*FOOTER*/
+/*texto*/
+.feedback p {
+	padding-bottom: 15px;
+}
+/*botão feedback*/
+#footer .btn {
+	padding: 6px 15px;
+}
+}
+
+/*****LANDSCAPE*****/
+@media screen and (max-height: 500px) {
+/**********BANNER**********/
+/*banner text*/
+.banner h1 {
+	font-size: 2em;
+	padding-bottom: 10px;
+}
+.banner h2 {
+	font-size: 1.25em;
+	padding-bottom: 15px;
+}
+/*btn portfolio*/
+.btn-custom {
+	padding: 12px 27px;
+	font-size: 1em;
+}
+/*btn scroll down*/
+.scroll-down-button a {
+    top: 25px;
+}
+}
