@@ -39,7 +39,4 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Magnific popup calls
-  
-
 })(jQuery); // End of use strict
