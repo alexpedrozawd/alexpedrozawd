@@ -1,0 +1,250 @@
+/*
+* @author Alexandre Pedroza
+* @version 0.2
+*/
+
+/* ====================================================== RESET =========================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+	list-style: none; 
+}
+
+a {
+	text-decoration: none; 
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@font-face {
+    font-family:'Amatic';
+    src:url("../fonts/AmaticSC-Regular.ttf");
+}
+
+@font-face {
+    font-family:'Amatic-Bold';
+    src:url("../fonts/AmaticSC-Bold.ttf");
+}
+
+@font-face {
+    font-family:'Arimo-Regular';
+    src:url("../fonts/Arimo-Regular.ttf");
+}
+
+@font-face {
+    font-family:'Arimo-Bold';
+    src:url("../fonts/Arimo-Bold.ttf");
+}
+
+/* ====================================================== MENU =========================================================*/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header img {
+    width: 80px;
+}
+
+/**
+.logo {
+    display: inline-block;
+    text-align: center;
+}**/
+
+.logo {
+    display: grid;
+    align-items: end;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+}
+
+.borboleta {
+	background: url('../img/borboleta-icone.png') no-repeat center;
+    background-size: contain;
+}
+
+.foto {
+    background: url('../img/isa-foto.png') no-repeat center;
+    background-size: contain;
+}
+
+.foto-texto {
+    position: relative;
+    top: 25px;
+    display: grid;
+    align-items: ;
+    color: #CF5348;
+    font-size: 1rem;
+    font-family: Arimo-Regular;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2%;
+}
+
+nav li {
+    background-color: #CF5348;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    margin: 10px 0;
+    border-radius: 6px;
+    font-family: Amatic-Bold;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+nav li:hover {
+    cursor: pointer;
+    background-color: #409184;
+    transition: .5s all;
+}
+
+nav li a {
+    font-size: 1.75rem;
+    color: #fff;
+    
+}
+
+nav li a:hover {
+    color: #fff;
+    transition: .5s all;
+}
+
+section {
+    display: none;
+}
+
+footer {
+    font-family: Arimo-Regular;
+    color: #CF5348;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer p {
+    margin: 25px 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons li a {
+    margin-right: 15px;
+    color: #CF5348;
+}
+
+.icons li:last-child {
+    margin-right: 0;
+}
+
+.icons li img {
+    width: 25px;
+}
+
+@media(min-width: 700px){
+    .logo {
+        height: 80px;
+    }
+
+    nav {
+        margin: 0 15%;
+    }
+
+    .tela-maior {
+        margin: 5% 0;
+    }
+}
+
+@media(min-width: 1024px){
+    header {
+        margin: 0 25%;
+    }
+
+    .logo {
+        height: 100px;
+    }
+
+    section, nav {
+        display: inline-block;
+        text-align: center;
+    }
+
+    nav {
+        margin: 0 30%;
+    }
+
+    section iframe {
+        border: 1px solid #cf53483f;
+        border-radius: 6px;
+        width: 40vw;
+        height: 40vh;
+        margin-top: 2%;
+    }
+
+    .tela-maior {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        margin-bottom: 25px;
+    }
+}
+
+@media(min-width: 1440px){
+    .logo {
+        height: 100px;
+    }
+
+    nav {
+        margin: 0 25%;
+    }
+
+    nav li a {
+        font-size: 2.5rem;
+    }
+}
+
+@media(min-width: 2560px){
+    .logo {
+        height: 125px;
+    }
+
+    .foto-texto {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        margin: 0 30%;
+    }
+
+    nav li {
+        padding: 15px 0;
+    }
+
+    nav li a {
+        font-size: 2.5rem;
+    }
+
+    footer {
+        font-size: 1.75rem;
+    }
+}   
