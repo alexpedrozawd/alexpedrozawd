@@ -1,0 +1,142 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgb(60, 211, 128), hsl(147, 68%, 44%), #106d3a);
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Heebo', sans-serif;
+    padding-top: 25px;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+header > p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+nav {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 0px 5px 13px;
+}
+
+main {
+    margin: auto;
+    background-color: rgb(117, 250, 177);
+}
+
+section {
+    margin: auto;
+    text-align: justify;
+    background-color: white;
+    width: 76%;
+    padding: 15px 0px;
+}
+
+section > h2 {
+    font-family: 'idroid';
+    color: #106d3a;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 0 15px;
+    margin: 0;
+}
+
+section > p {
+    text-indent: 20px;
+    font-size: 0.85em;
+    padding: 0 15px;
+}
+
+article > h3 {
+    font-family: 'idroid';
+    color: #106d3a;
+    background-image: linear-gradient(to right, rgba(60, 211, 128, 0.2),rgba(60, 211, 128, 0.001));
+}
+
+article {
+    padding: 0 15px;
+}
+
+article > p {
+    text-indent: 20px;
+    font-size: 0.85em;
+}
+article > p > a {
+    font-weight: bold;
+    color: #106d3a;
+    text-decoration: none;
+}
+
+article > p > a:visited {
+    color: #106d3a;
+}
+
+article > img {
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+}
+
+#iframe {
+    background-color: #024922;
+    padding: 15px -10px;
+}
+
+#iframe > iframe {
+    display: block;
+    margin: auto;
+}
+
+aside {
+    border-radius: 15px;
+    background-color: #58ffa39c;
+}
+
+aside > h4 {
+    margin-top: 15px;
+    border-radius: 15px 15px 0 0;
+    background-color: #106d3a91;
+    padding: 10px;
+    color: white;
+}
+
+aside > p {
+    font-size: 0.85em;
+    text-indent: 30px;
+    text-align: justify;
+    padding: 15px;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    background-color: #024922;
+}
+
+footer > p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 0.75em;
+    padding: 5px 0;
+    margin-top: 0px;
+}
+
+footer > p > span {
+    color: white;
+}
